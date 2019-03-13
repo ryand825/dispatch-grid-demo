@@ -1,0 +1,13 @@
+.job-card {
+  display: flex;
+  flex-direction: column;
+  border: .5px tomato solid;
+  margin: 3px;
+  font-size: .8rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.job-card-name {
+  background-color: salmon;
+}

@@ -1,0 +1,30 @@
+.dispatch-grid {
+  display: grid;
+  grid-template-columns: auto repeat(7, 1fr);
+  min-width: 900px;
+}
+
+.dispatch-grid-header {
+  text-align: center;
+  border: 1px black solid;
+}
+
+.dispatch-grid-assignee {
+  background-color: tomato;
+  border: .5px lightgray solid;
+  cursor: pointer;
+}
+
+.dispatch-grid-cell {
+  border-bottom: .5px lightgray solid;
+  border-right: .5px lightgray solid;
+}
+
+.over {
+  background-color: lightcoral;
+}
+
+.dispatch-grid-assignee-hidden {
+  color: white;
+  background-color: lightgray;
+}
